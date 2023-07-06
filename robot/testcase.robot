@@ -24,7 +24,7 @@ Open Wikipedia Page
     Wait Until Page Contains Element    css=#firstHeading
 
 *** Test Cases ***
-Search for a keyword on Google and verify the first result
+Search for a keyword on Google and find the first wikipedia result
     Open Browser    https://www.google.com    ${BROWSER}
     Maximize Browser Window
     Wait Until Page Contains Element    //div[@class='GzLjMd']
