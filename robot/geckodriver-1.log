@@ -1,0 +1,16 @@
+1688638898404	geckodriver	INFO	Listening on 127.0.0.1:54515
+1688638898423	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/usr ... te" "--remote-debugging-port" "51717" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePXSjzf"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1688638899989	Marionette	INFO	Marionette enabled
+1688638899996	Marionette	INFO	Listening on port 35465
+WebDriver BiDi listening on ws://localhost:51717
+Read port: 35465
+1688638900245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePXSjzf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51717/devtools/browser/692fba32-fa70-44d3-9f52-9a55e9b40626
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.google.com"
+1688639275085	Marionette	INFO	Stopped listening on port 35465
+Sandbox: Unexpected EOF, op 0 flags 00 path /proc/cpuinfo
